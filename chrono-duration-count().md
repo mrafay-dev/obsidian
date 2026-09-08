@@ -1,0 +1,1 @@
+returns the value into an int, double, float etc

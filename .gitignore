@@ -1,0 +1,37 @@
+# ===== Recommended common ignores for beginners and multi-device sync =====
+
+# 1. Device-specific workspace layout, strongly recommended
+# Different computers and phones have different window layouts and open tabs.
+# Syncing these files often creates conflicts.
+.obsidian/workspace.json
+.obsidian/app.json
+
+# 2. System-generated clutter
+.DS_Store
+Thumbs.db
+.directory
+
+# 3. Obsidian trash folder
+.trash/
+
+# ===== Optional advanced ignores =====
+
+# 4. Ignore the entire .obsidian folder
+# Use this if you do not want to sync plugin settings, themes, or hotkeys.
+# .obsidian/
+
+# 5. Protect private keys and tokens
+# Many plugins may store API keys or tokens in data.json files.
+.obsidian/plugins/*/data.json
+
+# 6. Large files and attachments
+# If your vault has many images, PDFs, or videos, consider ignoring them
+# or syncing them in another way.
+# attachments/
+# *.pdf
+# *.mp4
+
+# 7. Other common cache and temporary files
+*.log
+*.tmp
+.cache/

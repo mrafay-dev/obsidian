@@ -1,0 +1,1 @@
+Tells compiler to always read from memory
