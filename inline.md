@@ -1,0 +1,1 @@
+allows us to define stuff in code rather than a seperate file without breaking the ODR rule
