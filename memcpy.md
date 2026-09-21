@@ -1,4 +1,6 @@
-copies from one address to another. if overflow, no truncation and will just copy grbage values next to it in RAM
+copies from one address to another. if overflow, no truncation and will just copy garbage values next to it in RAM
+
+for trivially serializable types - no complex constructors, destructors, virtual functions
 
 ```cpp
 /* memcpy example */
