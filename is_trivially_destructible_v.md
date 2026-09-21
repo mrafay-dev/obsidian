@@ -1,0 +1,1 @@
+Checks if the destructor is triial to destory - prevents memory leaks, and double deletions

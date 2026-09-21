@@ -1,1 +1,2 @@
 [[thread]]
+[[type_trait]]
